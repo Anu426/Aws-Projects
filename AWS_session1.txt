@@ -1,0 +1,70 @@
+This is my AWS Documentatin file.
+#####################
+Session1:
+Creation of aws account.
+For nat gateway it will be charged.
+Basics of linux:
+Use amazon linux..
+Simple linux commands:
+Man rm
+Ll|grep –I testfolder
+Cat /etc/sessopn/pwd | grep –i ec2-user
+To get line number:
+Cat /testfolder1/file1 | grep –i –n test
+Apt-get used in ubunto
+Chmod for changing file per
+Chown for changing owner permissions
+Find a file in directory – ude find command
+To find content in a file use grep
+
+Session2:
+
+aws data center explanation:
+
+hp dl380 g10 —physical server(contain cpu,ram ,etc)
+data center>rack>physical server 1,physical server2..
+
+physical server>contains Hypervisor installed(you will install example——vmware vsphare,hyper-v,rhel)
+
+rhel>contains virtual machines  web,app etc..
+getrics are running inside
+
+one region contains multiple AZ for example N. vergina contains 6 regions
+edge locations: small pint of presence
+
+1.	Ip Addressing and subnetting:
+10.1.0.0/16==> vpc
+
+10.1.1.0/24
+CCNA?
+managed by IANA
+size of ipv4 is 32 bit==> 0.0.0.0 to 255.255.255.255
+ipv6 is 128 bit
+private its are used internally
+public ips 
+roc 1918
+
+loopback :127.0.0.1
+169.x.x.x==> metadata
+Subletting:
+#############################
+VPC:
+public cloud and private cloud
+there is a security breech in public cloud
+availability zone is a datacenter —AZ-US-EAST-1A
+datacenter contains 100s of servers
+infrastructure.aws
+
+
+what are the changlances with public cloud and how vpc will solve it
+there is a security breech in public cloud
+how vpc works
+lets deploy the vpc
+
+problems with public cloud :
+
+1.all the servers will be reachable to each other i.e. security breech
+2.ip overlapping problem
+
+
+
