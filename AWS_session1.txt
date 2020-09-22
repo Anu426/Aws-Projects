@@ -1,21 +1,67 @@
 This is my AWS Documentatin file.
 #####################
-Session1:
+Session1: basic commands: curl and wget etc...
 Creation of aws account.
 For nat gateway it will be charged.
 Basics of linux:
 Use amazon linux..
 Simple linux commands:
+cd / will take to root
+check linux directory structure
+ls -al will show the permission or you can use ll also..
+. means in current folder
+
 Man rm
 Ll|grep –I testfolder
 Cat /etc/sessopn/pwd | grep –i ec2-user
 To get line number:
 Cat /testfolder1/file1 | grep –i –n test
+cat /etc/passwd
+cat /etc/passwd| grep -i ec2-user
 Apt-get used in ubunto
 Chmod for changing file per
 Chown for changing owner permissions
 Find a file in directory – ude find command
 To find content in a file use grep
+basic editors : for creating file use touch
+nano,vi orvim...
+to find a file use find
+grep will be enhanced search you can go inside the file and search
+locate -i *hello*
+sometimes all commands wont work in linux you need to install using yum
+yum is a package manager to install software
+rHEL,centos,Amazon,ubuntu,suse.....linux flavours
+echo "AWS class" --- used for debuging
+example  program: vi whoami.sh
+#!/bin/bash
+echo "Running the script now..."
+echo $(whoami)
+echo "script executed successfully||"
+mv whoami.sh /tmp/
+chmod 700 /tmp/whoami.sh
+cd /tmp/
+./whoami.sh
+using df you can find free space -- df -h
+using du you can check disk usage for indivudual  file or folder-- du -h
+tar is used to archive a file(you can combine 10 files into one file)
+
+Permission numbers are:
+
+0 = ---
+1 = --x
+2 = -w-
+3 = -wx
+4 = r-
+5 = r-x
+6 = rw-
+7 = rwx
+
+read - 4,write - 2,execute - 1
+owner, owner group, others
+
+chown root(user):root(group) file1
+Hostname: server name of your linux server
+in windows we use ping to test the communication..
 
 Session2:
 
